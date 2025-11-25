@@ -1,2 +1,3 @@
-console.log("2" > 1);
-console.log("02" > 1);
+sole.log(newDate);
+// console.log(newDate.getMonth() + 1);
+// console.log(newDate.getDay());

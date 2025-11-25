@@ -25,6 +25,8 @@ const myArr2 = new Array(1, 2, 3, 4)
 
 
 // slice, splice
+// slice _> doesn't manipulate original array, instead just save copy
+// splice -> manipulates original array
 
 console.log("A ", myArr);
 
