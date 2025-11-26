@@ -13,16 +13,16 @@ const all_new_heros = [...marvel_heros, ...dc_heros]
 
 // console.log(all_new_heros);
 
-const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
+const anotherArray = [1,2,3,[3,4,5,[4,5,6,[5,6,7]]]]
+const realAnotherArray = anotherArray.flat(Infinity)
+// console.log(anotherArray);
+// console.log(realAnotherArray);
 
-const real_another_array = another_array.flat(Infinity)
-console.log(real_another_array);
 
 
-
-console.log(Array.isArray("Hitesh"))
-console.log(Array.from("Hitesh"))
-console.log(Array.from({name: "hitesh"})) // interesting
+console.log(Array.isArray("Hitesh"));
+console.log(Array.from("Hitesh"));
+console.log(Array.from({name: "hitesh"})) // interesting (doesn't convert directly into array, we have to explicitly mention)
 
 let score1 = 100
 let score2 = 200
