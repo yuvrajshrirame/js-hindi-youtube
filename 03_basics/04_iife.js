@@ -1,12 +1,19 @@
 // Immediately Invoked Function Expressions (IIFE)
 
 
+// (function chai(){
+//     // named IIFE
+//     console.log(`DB CONNECTED`);
+// })();
+
+// ( (name) => {
+//     console.log(`DB CONNECTED TWO ${name}`);
+// } )('hitesh')
+
 (function chai(){
-    // named IIFE
-    console.log(`DB CONNECTED`);
+    console.log("DB CONNECTED");
 })();
 
-( (name) => {
-    console.log(`DB CONNECTED TWO ${name}`);
-} )('hitesh')
-
+const chaiArw = (() => {
+    console.log("DB CONNECTED AGAIN!");
+})();
